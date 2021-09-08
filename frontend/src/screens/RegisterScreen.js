@@ -18,13 +18,13 @@ const RegisterScreen = ({ location, history }) => {
     const redirect = location.search ? location.search.split('=')[1] : '/'
 
     const userRegister = useSelector((state) => state.userRegister)
-    const { error, loading, userInfo } = userRegister
+    const { error, loading, success } = userRegister
 
     useEffect(() => {
-        if (userInfo) {
+        if (success) {
             history.push(redirect)
         }
-    }, [history, userInfo, redirect])
+    }, [history, success, redirect])
 
     const submitHandler = (e) => {
         e.preventDefault()
