@@ -68,7 +68,18 @@ def deleteProduct(request, pk):
     product.delete()
     return Response('Product Deleted')
 
+@api_view(['POST'])
+def uploadImage(request):
+    data = request.data
+    
+    product_id = data['product_id']
+    product = Product.objects.get(_id = product_id)
+    product.image = request.FILES.get('image')
+    product.save()
+
+    return Response('Image was uploaded ')
 
 class APIProducts(APIView):
     def get(self, request):
         return Response(products)
+
