@@ -95,4 +95,4 @@ def updateUser(request, pk):
 def deleteUser(request, pk):
     userForDeletion = User.objects.get(id=pk)
     userForDeletion.delete()
-    return Response('User was deleted')
+    return Response({'detail': 'User was deleted'})
