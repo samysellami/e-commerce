@@ -146,8 +146,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'proshop',
-        'USER': os.environ.get('POSTGRES_USER'),  # samy
-        'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),  # L!Z)Z-,_r)4k4x8
+        'USER': os.environ.get('POSTGRES_USER'),
+        'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
         'HOST': 'proshop-identifier.cuspvkudj1da.us-east-2.rds.amazonaws.com',
         'PORT': '5432'
     }
@@ -211,9 +211,8 @@ CORS_ALLOW_ALL_ORIGINS = True
 AWS_QUERYSTRING_AUTH = False
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
-AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')  # 'AKIAWOTDAK5IS2YVBGW2'
+AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
-# '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'
 AWS_STORAGE_BUCKET_NAME = 'proshop-bucket-samy'
 
 
