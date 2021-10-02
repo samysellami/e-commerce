@@ -148,7 +148,7 @@ DATABASES = {
         'NAME': 'proshop',
         'USER': os.environ.get('POSTGRES_USER'),
         'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
-        'HOST': 'proshop-identifier.cuspvkudj1da.us-east-2.rds.amazonaws.com',
+        'HOST': os.environ.get('HOST'),
         'PORT': '5432'
     }
 }
