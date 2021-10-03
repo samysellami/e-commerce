@@ -129,13 +129,13 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 #     }
 # }
 
-#  local postgres database
+# #  local postgres database
 # DATABASES = {
 #     'default': {
 #         'ENGINE': 'django.db.backends.postgresql',
 #         'NAME': 'proshop',
-#         'USER': os.environ.get('POSTGRES_USER'),  # 'postgers'
-#         'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),  # 'postgres'
+#         'USER': 'postgres',  # os.environ.get('POSTGRES_USER'),
+#         'PASSWORD': 'postgres',  # os.environ.get('POSTGRES_PASSWORD'),
 #         'HOST': 'localhost',
 #         'PORT': '5432'
 #     }
