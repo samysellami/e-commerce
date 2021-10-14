@@ -2,7 +2,7 @@
 
 Live Demo can be viewed http://e-commerce-samy.eu-west-3.elasticbeanstalk.com/#/
 
-![DEMO](../master/static/images/proshop_django_demo.png)
+![DEMO](/static/images/proshop_django_demo.png)
 
 # Features
 
