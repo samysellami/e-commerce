@@ -1,6 +1,6 @@
 # Ecommerce Website With Django + React
 
-Live Demo can be viewed http://e-commerce-samy.eu-west-3.elasticbeanstalk.com/#/
+Live Demo can be viewed at http://e-commerce-samy.eu-west-3.elasticbeanstalk.com/
 
 ![DEMO](/static/images/proshop_django_demo.png)
 
@@ -22,7 +22,7 @@ Live Demo can be viewed http://e-commerce-samy.eu-west-3.elasticbeanstalk.com/#/
 # Download & Setup Instructions
 
 -   1 - Clone project: git clone https://github.com/samysellami/e-commerce
--   2 - cd proshop_django
+-   2 - cd e-commerce
 -   3 - Create virtual environment: virtualenv myenv
 -   4 - myenv\scripts\activate
 -   5 - pip install -r requirements.txt
