@@ -27,7 +27,7 @@ Live Demo can be viewed at http://e-commerce-samy.eu-west-3.elasticbeanstalk.com
 -   1 - Clone project: git clone https://github.com/samysellami/e-commerce
 -   2 - cd e-commerce
 -   3 - Create virtual environment: virtualenv myenv
--   4 - source myenv\bin\activate
+-   4 - source myenv/bin/activate
 -   5 - pip install -r requirements.txt
 -   6 - python manage.py runserver
 
