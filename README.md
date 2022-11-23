@@ -35,3 +35,4 @@ Live Demo can be viewed at http://e-commerce-samy.eu-west-3.elasticbeanstalk.com
 
 -   1 - cd frontend
 -   2 - npm install
+-   3 - npm start
