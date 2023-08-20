@@ -1,6 +1,6 @@
 # Ecommerce Website With Django + React
 
-Live Demo can be viewed at http://e-commerce-samy.eu-west-3.elasticbeanstalk.com/
+<!-- Live Demo can be viewed at http://e-commerce-samy.eu-west-3.elasticbeanstalk.com/ -->
 
 <!-- ![DEMO](/static/images/proshop_django_demo.png) -->
 <p align="center">
@@ -22,17 +22,23 @@ Live Demo can be viewed at http://e-commerce-samy.eu-west-3.elasticbeanstalk.com
 -   Checkout process (shipping, payment method, etc)
 -   PayPal / credit card integration
 
-# Download & Setup Instructions
+<!-- # Download & Setup Instructions
 
 -   1 - Clone project: git clone https://github.com/samysellami/e-commerce
 -   2 - cd e-commerce
--   3 - Create virtual environment: virtualenv myenv
--   4 - source myenv/bin/activate
--   5 - pip install -r requirements.txt
--   6 - python manage.py runserver
-
-# Install react modules
+## Install react modules and build static files
 
 -   1 - cd frontend
 -   2 - npm install
--   3 - npm start
+-   3 - npm run build
+
+## Install python modules and run the server
+
+
+-   3 - cd -
+-   3 - Create virtual environment: virtualenv myenv
+-   4 - source myenv/bin/activate
+-   5 - pip install -r requirements.txt
+-   6 - python manage.py runserver -->
+
+
